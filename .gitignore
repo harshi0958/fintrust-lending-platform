@@ -1,0 +1,19 @@
+﻿node_modules/
+**/node_modules/
+dist/
+**/dist/
+.env
+.env.*
+!.env.example
+!.env.*.example
+coverage/
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Private uploaded documents
+backend/private-uploads/
+
+# Local backup files
+frontend/src/App.jsx.backup
